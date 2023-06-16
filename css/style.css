@@ -15,6 +15,19 @@ body {
 }
 
 /* Обнулення стилів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+}
 
 .no-decorated-link {
   text-decoration: none;
@@ -30,9 +43,25 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* logo styles */
+
+/* .header {
+} */
+
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 .logo {
   font-family: "Raleway";
@@ -91,7 +120,6 @@ ul {
 
 .hero-section {
   background-color: var(--color-background-dark);
-  width: 1600px;
   height: 600px;
 }
 .hero-title {
@@ -104,6 +132,8 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-button {
@@ -123,14 +153,9 @@ ul {
 }
 
 /* Section 2 */
-
-/* .post-list {
-  width: 1170px;
-  height: 98px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: auto;
+/* .post-list-section {
+}
+.post-list {
 } */
 
 .post-title {
@@ -154,13 +179,12 @@ ul {
 }
 
 /* Section 3 */
-
-/* .about-work-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: auto;
+/* .about-work-section {
 } */
+
+.about-work-list {
+  margin-top: 50px;
+}
 
 .about-work-title {
   font-family: "Roboto";
@@ -184,7 +208,8 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 42px;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-text-primery);
 }
@@ -197,6 +222,7 @@ ul {
 } */
 
 .person-cards {
+  margin-top: 50px;
   width: 270px;
   height: 368px;
   background-color: var(--color-white);
@@ -263,6 +289,7 @@ Portfolio Page
 }
 
 .project-list {
+  margin-top: 50px;
   border: 1px solid #eeeeee;
 }
 
@@ -288,9 +315,8 @@ Portfolio Page
 /* Footer */
 
 footer {
+  padding-top: 60px;
   background-color: var(--color-background-dark);
-  width: 1600px;
-  height: 252px;
 }
 
 .maps-link {
