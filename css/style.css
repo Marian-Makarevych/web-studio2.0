@@ -107,8 +107,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-link:focus,
-.header-link:hover {
+.header__link:focus,
+.header__link:hover {
   color: var(--color-action);
 }
 
@@ -284,6 +284,7 @@ Portfolio Page
 
 .filter-button-list {
   justify-content: center;
+
   display: flex;
   gap: 8px;
   margin-bottom: 50px;
@@ -292,6 +293,7 @@ Portfolio Page
 
 .button-item {
   padding-top: 6px;
+  padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
   font-family: "Roboto";
