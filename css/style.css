@@ -154,8 +154,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  width: 216px;
-  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
   background-color: var(--color-action);
   color: var(--color-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -240,10 +243,11 @@ body {
 .team__list {
   display: flex;
   gap: 30px;
+  margin-top: 50px;
 }
 
 .team__item {
-  margin-top: 50px;
+
   width: 270px;
   height: 368px;
   background-color: var(--color-white);
@@ -348,7 +352,7 @@ Portfolio Page
 /* Footer */
 
 footer {
-  height: 251px;
+  padding-bottom: 60px;
   padding-top: 60px;
   background-color: var(--color-background-dark);
 }
